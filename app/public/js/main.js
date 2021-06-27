@@ -45,7 +45,6 @@ const mainModule = (() => {
         body: JSON.stringify(body),
       });
 
-      console.log(res);
       goHome();
     },
     fetchOnePost: async (pid) => {
@@ -68,7 +67,6 @@ const mainModule = (() => {
       });
       const post = await res.json();
 
-      console.log(post);
       document.getElementById("edit-title").value = post.title;
     },
     deletePost: async (pid) => {
@@ -82,7 +80,6 @@ const mainModule = (() => {
           headers: headers,
         });
 
-        console.log(res.message);
         goHome();
       }
     },
