@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+#submit-form {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #404a40;
+  border-radius: 4px;
+  text-align: center;
+  padding: 20px 50px 30px;
+}
+
+#post-area {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.post {
+  padding: 0 10px 10px;
+  border-bottom: 1px solid #404a40;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.post-date {
+  font-size: 10px;
+}
+
+.post-header :first-child {
+  margin-right: 20px;
+}
